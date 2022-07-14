@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <meta name="description" content="Jogo da velha feito com javascript puro.">
+    <meta name="keywords" content="Jogo da velha javascript, malinhodev">
+    <meta name="author" content="Malinhodev" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo da Velha</title>
+    <link rel="icon" type="image/png" href="images/icotransparent.png">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
 </head>
 <body>
-    <h1>Jogo da Velha</h1>
+    <img src="images/logo-m-dev-transparent.png" alt="logo malinhodev">
     <section id="buttons-container">
-        <button id="2-players">2 jogadores</button>
-        <button id="ia-player">Contra IA</button>
+        <div class="btn" id="2-players">
+            <span><ion-icon name="game-controller"></ion-icon> 2 jogadores</span>
+        </div>
+        <div class="btn" id="ia-player">
+            <span><ion-icon name="game-controller"></ion-icon> Contra IA</span>
+        </div>
     </section>
     <section id="container" class="hide">
         <div class="box" id="block-1"></div>
@@ -42,10 +51,16 @@
         </div>
 
     </section><!--container-->
+
     
     <div id="message" class="hide">
         <p>O Jogador 0 venceu!</p>
     </div><!--message-->
+
+    <footer>
+        <p>Para zerar o placar basta dar um reload na página.</p>
+    </footer>
+
 <script src="js/script.js"></script>  
 </body>
 </html>
