@@ -1,2 +1,2 @@
-# jogodavelha.github.io
-o clássico jogo da velha feito apenas com HTML5, CSS3, Javascript 
+# jogodavelha.
+o clássico jogo da velha feito apenas com HTML5, CSS3, Javascript.
